@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Lojas Africanas</title>
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+    </head>
+    <script>
+        function msg(){
+            alert("Valha! Se a maçã que é mordida já é cara, imagina se fosse inteira?!")
+        }
+        function aberta(){
+            document.getElementById("mao").src="imagens/legal.png"
+        }
+        function legal(){
+            document.getElementById("mao").src="imagens/aberta.png" 
+        }
+    </script>
+    <body>
+    <header id="cabecalho">
+        <h1>AFRICANAS</h1>
+        <figure>
+            <img id="icone" src="imagens/iconAfrica.png">
+        </figure>
+        <nav id="menu">
+        <h1>Menu Principal</h1>
+            <ul>
+                <li><a href="principal.html">Home</h4></a></li>
+                <li>Cadastre-se</h4></li>
+                <li>Login</h4></li>
+                <li>Suporte</h4></li>
+            </ul>
+        </nav>
+        <input type="text" id="busca">
+    </header>
+    <section> 
+        <h2>EM OFERTA</h2>
+
+            <img src="imagens/aberta.png" id="mao" onmousemove= aberta() onmouseout=legal()>
+            
+        <div class="i">
+            <img src="imagens/i.png" onclick="msg()">
+        </div>
+
+        <div class="produtos">    
+            <div class="iten">
+                <img src="imagens/macbook.jpg">
+                    <h3>MacBook pro</h3>
+                    <p>11.000</p>
+            </div>
+            <div class="iten">    
+                <img src="imagens/macbook.jpg">
+                    <h3>MacBook pro</h3>
+                    <p>11.000</p>
+            </div>
+            <div class="iten">    
+                <img src="imagens/macbook.jpg">
+                    <h3>MacBook pro</h3>
+                    <p>11.000</p>
+            </div>
+            <div class="iten">    
+                <img src="imagens/macbook.jpg">
+                    <h3>MacBook pro</h3>
+                    <p>11.000</p>
+            </div>
+            <div class="iten">    
+                <img src="imagens/macbook.jpg">
+                    <h3>MacBook pro</h3>
+                    <p>11.000</p>
+            </div>
+        </div>
+    </section>
+        <footer id="rodape">
+        <p>Copyright &copy; 2022 - by KaKau <br><a href="http://www.facebook.com/">Facebook</a> |<a href="http://www.twitter.com/">Twiter </a> | <a href="http:/www.instagram.com/">Instagram<a></p>
+        </footer>
+    </body>
+</html>

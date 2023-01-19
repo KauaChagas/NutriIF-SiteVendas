@@ -1,0 +1,140 @@
+/* CABEÇALHO */
+body{
+    font-family: 'Trebuchet MS';
+    color: darkolivegreen;
+    text-align: center;
+}
+
+/* div#interface {
+    height: auto;
+    width: auto;
+    box-shadow: 2px 0px 20px black;
+
+} */
+
+
+header#cabecalho h1{
+    font-family: sans-serif;
+    color:coral;
+    position:absolute;
+    top: 10px;
+    left:22px;
+}
+
+header#cabecalho img#icone{
+    position:absolute;
+    left:205px;
+    top:15px;
+    width:70px;
+    height:70px;
+}
+
+header#cabecalho input#busca{
+    position:absolute;
+    top: 30px;
+    width: 200px;
+    left: 300px;
+}
+
+header#cabecalho{
+    border-bottom: 5px solid coral;
+    height: 80px;
+    background-color: none;
+}
+
+
+/* MENU CABEÇALHO */
+nav#menu{
+    display: flex;
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position:absolute;
+    top: 10px;
+    left:800px;
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: none;
+    color:coral;
+    padding: 5px;
+    margin: 2px;
+    transition: 1s;
+    font-size: 18px;
+}
+
+
+
+nav#menu li:hover{
+    color:darkolivegreen;
+    text-decoration:overline;
+}
+
+nav#menu h1{
+    display:none;
+}
+
+nav#menu a{
+    color:coral;
+    text-decoration:none; /*tira qualquer decoração do texto*/
+    transition: 1s;
+}
+
+nav#menu a:hover{
+    color: darkolivegreen;
+}
+
+div.i img{
+    display:flex;
+    margin-bottom: 5px;
+    right: 500px;
+    width: 20px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* PRODUTOS */
+div.produtos{
+   display:flex;
+   flex-wrap: wrap; /*se adequa a escala do site */
+   justify-content: center; /*posiciona os itens no centro*/
+   text-align: center;
+   gap: 3rem;
+}
+
+div.produtos img:hover{
+    transform: translateY(-5px); /*movimenta a imagem para cima*/
+    cursor: pointer; /*cursor se transforma em selecionar*/
+}
+
+div.iten img{
+    width: 200px; /*ajustar tamnho da imagem*/
+    height: auto; /*ajustar tamnho da imagem*/
+}
+
+/* RODAPÉ */
+
+footer#rodape{
+    clear: both;
+    border-top: darkolivegreen solid;
+    /* background-color: darkolivegreen; */
+    display:absolute;
+}
+
+footer#rodape p{
+    text-align: center;
+}
+footer#rodape a{
+    color:rgb(62, 78, 35);
+    text-decoration:  none;
+}
+
+footer#rodape a:hover{
+    color:black;
+    background-color: bisque;
+}
+
+/* RODAPÉ */
